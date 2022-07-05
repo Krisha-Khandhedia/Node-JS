@@ -1,0 +1,14 @@
+function close10(a, b){
+  let diffa = Math.abs(a - 10);
+  let diffb = Math.abs(b - 10);
+  
+  if (diffa < diffb) {
+    return a;
+  }
+ else if (diffb < diffa) {
+    return b;
+  }
+  return 0; 
+}
+  
+}
