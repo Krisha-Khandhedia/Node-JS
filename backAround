@@ -1,0 +1,6 @@
+function backAround(str){
+  let c = str.substring(str.length-1);
+  return c+str+c;
+}
+  
+}
