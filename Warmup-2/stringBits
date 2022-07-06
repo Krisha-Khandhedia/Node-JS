@@ -1,0 +1,19 @@
+function stringBits(str){
+  	  let len = str.length;
+
+  let temp = "";
+
+   
+
+  for (let i = 0; i < len; i = i + 2) {
+
+    temp += str.charAt(i);
+
+  }
+
+  return temp;
+
+}
+
+  
+}
