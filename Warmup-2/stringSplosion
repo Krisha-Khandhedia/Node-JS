@@ -1,0 +1,10 @@
+function stringSplosion(str){
+   let s="";
+  for(lett i=0;i<str.length;i++){
+    s+=str.charAt(i);
+    i++;
+  }
+  return s;
+}
+  
+}
