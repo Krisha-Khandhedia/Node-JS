@@ -1,0 +1,13 @@
+function hasBad(str){
+  let bad = "bad";
+
+if(str.length<=3 && !str(bad)){
+return false;
+}
+if(str.startsWith(bad) || str.substring(1, 4).startsWith(bad)){
+return true;
+}
+return false;
+}
+  
+}
