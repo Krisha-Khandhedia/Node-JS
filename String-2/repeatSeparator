@@ -1,0 +1,18 @@
+ let n = "";
+
+      if (count == 0){
+        return "";
+      }
+
+
+    for (let i = 0; i < count - 1; i++){
+        n += word;
+        n += sep;
+    }
+
+    n += word;
+
+    return n;
+}
+Footer
+© 2022 GitHub, Inc.
