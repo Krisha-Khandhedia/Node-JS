@@ -1,0 +1,16 @@
+function front11(a, b){
+   let sections = [ a, b]
+
+  let nA = [];
+
+  for (let section of sections) {
+    if (section.length == 0) {
+
+    } else {
+      nA.push(section[0]);
+    }
+  }
+
+  return nA;
+}
+}
