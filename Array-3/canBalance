@@ -1,0 +1,20 @@
+function canBalance(nums){
+  let a= 0;
+  let b = 0;
+
+  for (let i = 0; i < nums.length; i++) {
+    b += nums[i]; 
+  }
+
+  for (let i = 0; i <= nums.length - 2; i++) {
+    a += nums[i];
+    b -= nums[i];
+
+    if (a == b) {
+      return true;
+    }
+  }
+
+  return false;  
+}
+}
