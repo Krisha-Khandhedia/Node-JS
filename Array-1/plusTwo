@@ -1,0 +1,11 @@
+function plusTwo(a, b){
+   let Arr = new Array();
+  Arr[0] = a[0];
+  Arr[1] = a[1];
+  Arr[2] = b[0];
+  Arr[3] = b[1];
+
+  return Arr;
+}
+
+}
